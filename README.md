@@ -3,9 +3,12 @@
 Crypto Server
 
 Please make use of the free API from https://api.hitbtc.com/ to complete this challenge. Create a micro-service with the following endpoint,
-GET /currency/{symbol}
+
+GET ```/currency/{symbol}```
 Returns the real-time crypto prices of the given currency symbol.
 Sample Response:
+
+```
   {
     "id": "ETH",
     "fullName": "Ethereum",
@@ -17,9 +20,12 @@ Sample Response:
     "high": "0.057559",
     "feeCurrency": "BTC"
 }
-GET /currency/all
+```
+GET ```/currency/all```
 Returns the real-time crypto prices of all the supported currencies.
-Response: [
+Response: 
+```
+[
    {
       "id": "BTC",
       "fullName": "Bitcoin",
@@ -47,3 +53,4 @@ Response: [
       "payoutFee": "0.001"
    }
 ]
+```
