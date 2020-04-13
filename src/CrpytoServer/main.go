@@ -1,7 +1,7 @@
 package main
 
 import (
-	route "CrytoServer/rourter"
+	route "CryptoServer/router"
 )
 
 func main() {

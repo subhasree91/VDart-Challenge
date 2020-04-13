@@ -1,7 +1,7 @@
 package currency
 
 import (
-	"CrytoServer/utility"
+	"CryptoServer/utility"
 	"encoding/json"
 	"fmt"
 )

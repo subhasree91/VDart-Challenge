@@ -1,7 +1,7 @@
 package rourter
 
 import (
-	hconfig "CrytoServer/client"
+	hconfig "CryptoServer/client"
 	"log"
 	"net/http"
 

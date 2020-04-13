@@ -1,7 +1,7 @@
 package client
 
 import (
-	"CrytoServer/currency"
+	"CryptoServer/currency"
 	"encoding/json"
 	"fmt"
 	"net/http"
